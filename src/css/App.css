@@ -177,6 +177,7 @@ form{
     height: 110px;
     display: flex;
     justify-content: right;
+    align-items: center;
 }
 
 
