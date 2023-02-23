@@ -2,13 +2,18 @@
     background-color: rgb(27, 27, 27);
     /* height: 98vh; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     flex-direction: column;
 }
 li{
     color: white;
     /* text-decoration: line-through; */
+}
+.rr{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 hr{
     color: white;
@@ -68,14 +73,12 @@ hr{
     color: white;
 }
 
-.navbar{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    font-size: xx-large;
-    background-color: black;
-    color: white;
+body{
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+
 }
+
 
 .head{
     display: flex;
@@ -96,7 +99,7 @@ form{
     position: relative;
     padding: 50px;
     align-items: center;
-    width: 100%;
+    width: 750px;
 }
 
 .first{
@@ -166,19 +169,7 @@ form{
     height: 120px;
 }
 
-.text{
-    background-color: #101010;
-    color: white;
-    height: 100px;
-    padding: 10px;
-    /* padding-top: 10px; */
-    text-align: right;
-    /* margin-bottom: 5px; */
-    height: 110px;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
+
 
 
 @media (max-width:730px) {
@@ -196,4 +187,10 @@ form{
     .target{
         
     }
+}
+
+.momo{
+    border: 1px solid black;
+    box-shadow: -6px 12px 15px 8px black;
+    margin-top: 40px;
 }

@@ -8,14 +8,13 @@ import ToDoMe from './Components/ToDoMe'
 import './css/App.css'
 function App() {
   return (
-    <>
+    <div className='body'>
     <Navbar />
     <Text />
-    {/* <Target /> */}
     <div className='app'>
       <ToDoMe />
     </div>
-    </>
+    </div>
   )
 }
 

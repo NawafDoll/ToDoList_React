@@ -1,9 +1,12 @@
 import React from 'react'
-
+import '../css/Navbar.css'
 function Navbar() {
   return (
     <div className='navbar'>
-      <h1>Your Goals</h1>
+      <div class="content">
+    <h2>YourTarget</h2>
+    <h2>YourTarget</h2>
+  </div>
     </div>
   )
 }
